@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>traceroute Command</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file -->
+</head>
+<body>
+    <h1>traceroute</h1>
+    <p>traceroute is a network diagnostic tool that tracks the path packets take to reach a target. It provides information about each hop along the route, helping diagnose connectivity issues.</p>
+
+    <h2>Options:</h2>
+    <ul>
+        <li><strong>-n:</strong> Displays only numeric addresses, skipping DNS resolution.</li>
+        <li><strong>-m &lt;max_ttl&gt;:</strong> Sets the maximum number of hops (Time To Live).</li>
+        <li><strong>-q &lt;nqueries&gt;:</strong> Specifies the number of queries sent per hop.</li>
+        <li><strong>-w &lt;wait_time&gt;:</strong> Sets the time to wait for a response (in seconds).</li>
+        <li><strong>-I:</strong> Uses ICMP (Internet Control Message Protocol) packets instead of UDP.</li>
+        <li><strong>-T:</strong> Uses TCP SYN packets instead of UDP.</li>
+        <li><strong>-p &lt;port&gt;:</strong> Sets the starting port number for queries.</li>
+        <li><strong>-f &lt;first_ttl&gt;:</strong> Sets the initial TTL (Time To Live) value.</li>
+    </ul>
+
+    <h2>Quiz:</h2>
+    <p>1. Which option would you use to set the maximum hops to 15? <strong>Answer:</strong> <input type="text" placeholder="traceroute -m 15"></p>
+
+</body>
+</html>
